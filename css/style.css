@@ -1,0 +1,84 @@
+@font-face {
+    font-family: "Open Sans";
+    src: url(./fonts/Open_Sans/OpenSans-VariableFont_wdth,wght.ttf);
+}
+@font-face {
+    font-family: "Neucha";
+    src: url(./fonts/Neucha/Neucha-Regular.ttf);
+}
+
+:root {
+    --white: #fff;
+    --transparent-white: #d7ccc0;
+    --light: #f5f4f0;
+    --main: #fe8a02;
+    --main-dark: #42413c;
+    --dark: #2a2626;
+    --transparent-dark: #908d8b;
+    --brown: #b09a81;
+    --blue: #1085c5;
+}
+
+body {
+    font-family: "Open Sans";
+    font-size: 16px;
+    line-height: 1.6em;
+    color: #2A2626;
+    background-image: url(../image/background-pattern.png);
+}
+
+.section {
+    max-width: 1110px;
+    padding: 100px 0;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h1,
+h2,
+h3 {
+    line-height: 1.2em;
+}
+
+h1 {
+    font-family: "Neucha";
+    font-size: 72px;
+
+}
+
+h2 {
+    font-size: 60px;
+}
+
+h3 {
+    font-size: 34px;
+}
+
+.columns-2 {
+    column-count: 2;
+}
+
+.columns-2 p {
+    margin-top: 0;
+    break-inside: avoid;
+}
+
+header button {
+    width: 148px;
+    height: 49px;
+    border: none;
+}
+
+header {
+    background-image: url(../image/tota_ill-4\ 1.png);
+    background-repeat: no-repeat;
+    background-position: top left;
+}
+
+.bg-main {
+    background-color: var(--main);
+}
+
+.color-white {
+    color: var(--white);
+}
