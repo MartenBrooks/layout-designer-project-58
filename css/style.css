@@ -60,19 +60,20 @@ h1,
 h2,
 h3 {
     line-height: 1.2em;
+    margin: 0;
+    font-family: "Neucha";
+    font-weight: 400;
 }
 
 h1 {
     position: relative;
     z-index: 1;
-    margin: 0;
-    font-family: "Neucha";
     font-size: 72px;
-    font-weight: 400;
 }
 
 h2 {
     font-size: 60px;
+    text-align: center;
 }
 
 h3 {
@@ -83,7 +84,7 @@ h3 {
     display: inline-block;
     padding: 12px 24px;
     text-decoration: none;
-    margin-top: 40px;
+    margin-top: 30px;
 }
 .header-img {
     position: absolute;
@@ -92,15 +93,30 @@ h3 {
     left: 296px;
     height: 525px;
 }
-
+.video {
+    position: relative;
+    z-index: 10;
+    filter: drop-shadow(0 16px 32px rgba(0 0 0 / 15%));
+}
+.video-title {
+    margin: 30px 0;
+}
+.video-section {
+    height: 800px;
+}
 .section {
     position: relative;
     margin: 0 auto;
     padding: 100px 0;
-    gap: 164px;
+}
+.video-section .section {
+    align-items: center;
 }
 .max-width-1110px {
     max-width: 1110px;
+}
+.min-height-914px {
+    min-height: 714px;
 }
 .flex-column {
     display: flex;
@@ -123,6 +139,46 @@ h3 {
     color: var(--dark)
 }
 
+.bg-main-dark {
+    background-color: var(--main-dark);
+}
+
 .weight-700 {
     font-weight: 700;
+}
+a.card {
+    padding: 24px;
+    text-decoration: none;
+    color: inherit;
+}
+.card {
+    display: block;
+    width: 350px;
+}
+.number {
+    margin: 0 0 40px;
+    font-size: 64px;
+    font-family: "Neucha";
+    line-height: 1;
+}
+
+.bg-white {
+    background-color: var(--white);
+}
+
+.navigation-section {
+    padding: 200px 0 100px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    height: 691px;
+    gap: 20px;
+
+}
+h2.card {
+    font-size: 52px;
+    text-align: left;
+}
+.navigation-section > * {
+    box-sizing: border-box;
 }
